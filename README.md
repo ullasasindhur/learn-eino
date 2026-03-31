@@ -1,9 +1,6 @@
 # learn-eino
 
-Minimal project-specific notes for this repo (Chapter 1: ChatModel & Message).
-
-- Entry (example): `main.go`
-- Purpose: demonstrate a single-turn call to a `ChatModel` and streaming response handling.
+- Entry: `main.go`
 
 ## Setup:
 ```
@@ -21,8 +18,9 @@ BASE_URL=openai
 
 ## Run (example):
 ```
-go run . "Who are you?"
+go run .
 ```
 
 # Reference:
-https://www.cloudwego.io/docs/eino/quick_start/chapter_01_chatmodel_and_message/
+- https://www.cloudwego.io/docs/eino/quick_start/chapter_01_chatmodel_and_message/
+- https://github.com/cloudwego/eino-examples/blob/main/quickstart/chatwitheino/docs/ch02_chatmodel_agent_runner_console.md
